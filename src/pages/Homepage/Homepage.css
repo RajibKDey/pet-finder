@@ -1,0 +1,38 @@
+.homepage {
+  text-align: center;
+}
+
+.param-div {
+}
+
+.search {
+  width: 400px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.sort,
+.limit {
+  padding: 7px;
+  width: 10px 0px;
+  margin: 5px;
+}
+
+.left,
+.right {
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.order {
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.animal-list {
+  display: flex;
+  flex-wrap: wrap;
+}
