@@ -40,5 +40,6 @@
 @media only screen and (max-width: 600px) {
   .search {
     width: 100%;
+    max-width: 400px;
   }
 }
