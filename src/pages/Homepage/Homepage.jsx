@@ -74,6 +74,8 @@ export default class Homepage extends Component {
                 break;
             case 'order':
                 parameters.order = (!this.state.order || this.state.order === 'asc') ? 'desc' : 'asc';
+                parameters.page = 1;
+                parameters.limit = 10;
                 break;
             default:
                 break;
